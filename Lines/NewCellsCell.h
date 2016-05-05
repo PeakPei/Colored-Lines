@@ -13,6 +13,6 @@
 @class NewCells;
 @interface NewCellsCell : UIView <NewCellsDelegate>
 
--(instancetype)initWithFrame:(CGRect)frame column:(NSInteger) column newCells:(NewCells*) newnewCells;
+-(instancetype)initWithFrame:(CGRect )frame column:(NSInteger) column newCells:(NewCells*) newnewCells;
 
 @end
